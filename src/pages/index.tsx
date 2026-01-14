@@ -51,8 +51,8 @@ const Index = () => {
                   <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white p-6">
                     {/* 타이틀 텍스트 - 한줄로, 흰색, 눈동이패스포트 opacity 85% */}
                     <h2 className="mb-8 title-font leading-tight">
-                      <span className="text-white text-4xl md:text-[40px] font-bold">2026 </span>
-                      <span className="text-white/85 text-3xl md:text-[30px] font-bold">눈동이 패스포트  </span>
+                      <span className="text-white text-3xl md:text-[30px] font-bold">2026 </span>
+                      <span className="text-white text-3xl md:text-[30px] font-bold">평창 눈동이 패스포트  </span>
                       
                     </h2>
                     
@@ -66,7 +66,7 @@ const Index = () => {
                     </p>
                     
                     <a 
-                      href="/#/"
+                      href="/#/programs2026"
                       className="bg-white/90 backdrop-blur-sm text-purple-600 hover:bg-white hover:text-purple-700 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105 px-8 py-2 rounded-full border border-white/20 flex items-center gap-2"
                     >
                       바로가기
@@ -92,8 +92,8 @@ const Index = () => {
                   <div className="relative z-10 h-full flex flex-col justify-center items-center text-center p-6">
                     {/* 타이틀 텍스트 - 한줄로, 진한 옐로우, 눈동이패스포트 opacity 85% */}
                     <h2 className="mb-8 title-font leading-tight">
-                      <span className="text-yellow-300/85 text-3xl md:text-[30px] font-bold">눈동이 패스포트  </span>
-                      <span className="text-yellow-300 text-4xl md:text-[40px] font-bold">VER. 2.0</span>
+                      <span className="text-yellow-300 text-3xl md:text-[30px] font-bold">평창 눈동이 패스포트  </span>
+                      <span className="text-yellow-300 text-3xl md:text-[30px] font-bold">ver. 2.0</span>
                     </h2>
                     
                     <p className="text-lg md:text-xl mb-6 opacity-100 leading-loose font-medium text-amber-100">
@@ -122,9 +122,14 @@ const Index = () => {
             {/* 후원 로고 섹션 */}
             <div className="flex justify-center">
               <div className="flex items-center gap-3">
-                <span className="text-gray-500 text-base font-bold">후원</span><span className="text-gray-500 text-base font-bold">I</span>
-                <img src="/images/index_logo_c.png" alt="후원사" className="h-[30px]" />
-              </div>
+  <span className="text-gray-500 text-base font-bold">주관</span>
+  <span className="text-gray-500 text-base font-bold">I</span>
+  <img src="/images/index_logo_c1.png" alt="후원사" className="h-[30px]" />
+  
+  <span className="text-gray-500 text-base font-bold ml-[60px]">후원</span>
+  <span className="text-gray-500 text-base font-bold">I</span>
+  <img src="/images/index_logo_c.png" alt="후원사" className="h-[30px]" />
+</div>
             </div>
           </div>
         </div>
